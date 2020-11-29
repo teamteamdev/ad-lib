@@ -1,0 +1,12 @@
+<network>
+  <name>internal</name>
+  <uuid>8353121b-1bba-4de6-80aa-6708111cf8d5</uuid>
+  <forward mode='open'/>
+  <bridge name='teambr0'/>
+  <ip address='@hostAddress@' netmask='@netmask@'>
+    <dhcp>
+      <range start='@guestAddress@' end='@guestAddress@'/>
+    </dhcp>
+  </ip>
+</network>
+

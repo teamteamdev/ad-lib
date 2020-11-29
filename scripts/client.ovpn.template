@@ -1,0 +1,6 @@
+client
+dev tun
+remote @remote@
+nobind
+tls-client
+remote-cert-tls server
